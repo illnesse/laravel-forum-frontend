@@ -9,9 +9,9 @@ use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Collection;
 use Riari\Forum\API\Dispatcher;
-use Riari\Forum\Contracts\API\ReceiverContract;
+//use Riari\Forum\Contracts\API\ReceiverContract;
 
-abstract class BaseController extends Controller implements ReceiverContract
+abstract class BaseController extends Controller
 {
     use AuthorizesRequests, ValidatesRequests;
 
