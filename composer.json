@@ -9,9 +9,6 @@
             "email": "riari@teamteatime.net"
         }
     ],
-    "require": {
-        "php": ">=5.4.0"
-    },
     "autoload": {
         "psr-4": {
             "Riari\\Forum\\Frontend\\": "src"
